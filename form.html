@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Macam-Macam Form</title>
+</head>
+<body>
+	<form action="aku.php" method="POST">
+		<!--atribut action digunakan sebagai tujuan yang akan dituju ketika data dikirim
+			tapi karena kita blm membuat aku.php jadi tdk akan ada efek apa-apa-->
+		<!--atribut method berarti metode yang digunakan untuk pengitiman data-->
+		<fieldset>
+			<!--Tag fieldset digunakan untuk membuat sebuah baris, didalamnya ada tag legend-->
+			<legend>FORMULIR REGITRASI</legend>
+				<!--legend ini nantinya akan memberikan nama/tulisan pada fieldset-->
+			<p>
+				<label>Nama : </label>
+				<input type="text" name="nama" placeholder="Nama lengkap...">
+				<!--type merupakan type dari field
+					name merupakan nama yang jadi kunci dan variable dalam program
+					placeholder untuk menampilkan text sementara-->
+			</p>
+			<p>
+				<label>E-Mail : </label>
+				<input type="email" name="email" placeholder="Masukan E-Mail...">
+			</p>
+			<p>
+				<label>Password : </label>
+				<input type="password" name="password" placeholder="password..."></input>
+			</p>
+			<p>
+				<label>Jenis Kelamin : </label>
+				<label> <input type="radio" name="jenis_kelamin" value="Laki-Laki"> Laki-Laki </input></label>
+				<label> <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan </input></label>
+			</p>
+			<p>
+				<label>Hobby : </label>
+				<label> <input type="checkbox" name="hobby" value="baca_buku"> Membaca Buku </input></label>
+				<label> <input type="checkbox" name="hobby" value="bermain_bola"> Bermain Bola </input></label>
+				<label> <input type="checkbox" name="hobby" value="bermain_bola"> Bermain Bola </input></label>
+			</p>
+			<p>
+				<label>Agama : </label>
+				<select name="agama">
+					<option value="islam">Islam</option>
+					<option value="kristen">Kristen</option>
+					<option value="hindu">Hindu</option>
+					<option value="budha">Budha</option>
+				</select>
+			</p>
+			<p>
+				<label>Catatan : </label>
+				<textarea name="catatan"></textarea>
+			</p>
+			<p>
+				<input type="submit" name="submit" value="submit">
+			</p>
+		</fieldset>
+	</form>
+</body>
+</html>
