@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/input.css">
+  <link rel="stylesheet" type="text/css" href="css/tombol.css">
+  <link rel="stylesheet" type="text/css" href="css/typefile.css">
+  <link rel="stylesheet" type="text/css" href="css/layout.css">
+  <link rel="stylesheet" type="text/css" href="css/form.css">
+  <title>PPDB Online</title>
+</head>
+
+<body>
+  <marquee scrolldelay="10" loop="infinite" bgcolor="darkblue" style="font-family:oswald; font-size:20px; color:#ffffff; font-weight: bold;" title="click here" behavior="alternate" onmouseover="this.stop()" onmouseout="this.start()">PROGRAM PENERIMAAN
+    PENERIMAAN PESERTA DIDIK BARU (PPDB)
+  </marquee>
+  <div class="header">
+    <h1>PPDB ONLINE</h1>
+    (SMK NEGERI 1 PADAHERANG)
+  </div>
+  <div class="topnav">
+    <ul>
+      <li><a href="ppdb.html" class="active">PPDB</a></li>
+      <li><a href="lihat.php">Data Masuk</a></li>
+      <li style="float: right">
+        <a href="admin.html">ADMIN</a></li>
+    </ul>
+  </div>
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <script type='text/javascript'>
+          var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+          var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
+          var date = new Date();
+          var day = date.getDate();
+          var month = date.getMonth();
+          var thisDay = date.getDay(),
+            thisDay = myDays[thisDay];
+          var yy = date.getYear();
+          var year = (yy < 1000) ? yy + 1900 : yy;
+          document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
+        </script>
+        <div id="card-content">
+          <div id="card-title">
+            <h2>PENDAFTARAN</h2>
+          </div>
+          <div align="center" style="border:px solid blue" width="100%">
+            <table>
+              <form class="form" method="post" action="validasi.php" enctype="multipart/form-data" name="form1" id="form1">
+                <tr>
+                  <td><label for="user-hp" style="padding-top:13px">NISN</label></td>
+                  <td>:</td>
+                  <td colspan="2"><input type="text" class="form_login" name="nisn" required placeholder="NISN"></td>
+                </tr>
+                <tr>
+                  <td><label for="user-hp" style="padding-top:13px">Nama Lengkap</label></td>
+                  <td>:</td>
+                  <td colspan="2"><input type="text" class="form_login" name="nama1" required placeholder="Nama Lengkap"></td>
+                </tr>
+                <tr>
+                  <td><label for="user-hp" style="padding-top:13px">Jenis Kelamin</label></td>
+                  <td>:</td>
+                  <td colspan="2">
+                    <input class="radio" type="radio" name="gender" value="laki-laki" checked>
+                    <label>Laki-Laki</label>
+                    <input class="radio" type="radio" name="gender" value="wanita">
+                    <label>Perempuan</label>
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="user-hp" style="padding-top:13px">Tanggal Lahir</label></td>
+                  <td>:</td>
+                  <td colspan="2"><input type="date" class="form_login" name="ttl"></td>
+                </tr>
+                <tr>
+                  <td><label for="user-hp" style="padding-top:13px">Nomor Telepon</label></td>
+                  <td>:</td>
+                  <td colspan="2">
+                    <input type="tel" class="form_login" name="hp1" pattern="\d\d\d\d\d\d\d\d\d\d\d\d" required placeholder="No.Hp 08xxxxxxxxxx"></td>
+                </tr>
+                <tr>
+                  <td><label for="username">Email</label></td>
+                  <td>:</td>
+                  <td colspan="2"><input id="user-email" class="form_login" type="email" required name="email" autocomplete="on" required placeholder="Email"></td>
+                </tr>
+                <tr>
+                  <td><label for="user-hp" style="padding-top:13px">Alamat Lengkap</label></td>
+                  <td>:</td>
+                  <td colspan="2">
+                    <textarea class="form_login" name="alamat" required placeholder="Alamat"></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="user-id" style="padding-top:13px">Agama</label></td>
+                  <td>:</td>
+                  <td colspan="2">
+                    <select class="form_login" name="agama">
+                      <option value="islam">Islam</option>
+                      <option value="kristen">Kristen</option>
+                      <option value="hindu">Hindu</option>
+                      <option value="budha">Budha</option>
+                      <option value="katolik">Katolik</option>
+                      <option value="dll">/dll</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="user-id" style="padding-top:13px">Nama Orang Tua/Wali</label></td>
+                  <td>:</td>
+                  <td colspan="2"><input type="text" class="form_login" name="nama2" required placeholder="Nama Orangtua/Wali"></td>
+                </tr>
+                <tr>
+                  <td><label for="user-id" style="padding-top:13px">Nomor Telp. Orang Tua/Wali</label></td>
+                  <td>:</td>
+                  <td colspan="2">
+                    <input type="tel" class="form_login" name="hp2" pattern="\d\d\d\d\d\d\d\d\d\d\d\d" required placeholder="No.Hp 08xxxxxxxxxx">
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="user-id" style="padding-top:13px">Nama Sekolah Asal</label></td>
+                  <td>:</td>
+                  <td colspan="2">
+                    <input type="text" class="form_login" name="sekolah" required placeholder="Sekolah Asal"></td>
+                </tr>
+                <tr>
+                  <td><label for="user-id" style="padding-top:13px">Upload Ijazah</label></td>
+                  <td>:</td>
+                  <td colspan="2">
+                    <label class="file">
+                      <input type="file" name="file1">
+                      <span class="file-custom"></span>
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="user-id" style="padding-top:13px">Upload SKHUN</label></td>
+                  <td>:</td>
+                  <td colspan="2">
+                    <label class="file">
+                      <input type="file" name="file2">
+                      <span class="file-custom"></span>
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="user-id" style="padding-top:13px">Upload KTP Orangtua/Wali</label></td>
+                  <td>:</td>
+                  <td colspan="2">
+                    <label class="file">
+                      <input type="file" name="file3">
+                      <span class="file-custom"></span>
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" colspan="4">
+                    <input id="submit-btn" type="submit" value="Kirim">
+                  </td>
+                </tr>
+              </form>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>copyright@hamizan</p>
+    </div>
+</body>
+
+</html>

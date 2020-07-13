@@ -1,0 +1,117 @@
+Data PPDB
+              NISN			: 1900018011
+              Nama Siswa		: Peserta Satu
+              Jenis Kelamin		: laki-laki
+              Tempat Tanggal Lahir	: 2020-07-07
+              Nomor HP			: 082291992912
+              Email			: hamizanhibatullah407@gmail.com
+              Alamat			: Satuy
+              Agama			: kristen
+              Nama Orangtua		: Ibu
+              No. HP Ortu		: 082295720592
+              Asal Sekolah		: SMP Negeri 1 Padaherang
+=========================================================================================
+Data PPDB
+              NISN			: 1900018011
+              Nama Siswa		: Peserta Dua
+              Jenis Kelamin		: laki-laki
+              Tempat Tanggal Lahir	: 2020-07-10
+              Nomor HP			: 082291992912
+              Email			: murinto@gmail.com
+              Alamat			: das
+              Agama			: hindu
+              Nama Orangtua		: Ibu
+              No. HP Ortu		: 082295720592
+              Asal Sekolah		: SMP Negeri 1 Padaherang
+=========================================================================================
+Data PPDB
+              NISN			: 1900018015
+              Nama Siswa		: Hakim Syihabuddin
+              Jenis Kelamin		: wanita
+              Tempat Tanggal Lahir	: 2020-07-09
+              Nomor HP			: 082291992912
+              Email			: hamizanhibatullah407@gmail.com
+              Alamat			: HAKIM
+              Agama			: islam
+              Nama Orangtua		: Ibu
+              No. HP Ortu		: 082295720592
+              Asal Sekolah		: SMP Negeri 1 Padaherang
+=========================================================================================
+Data PPDB
+              NISN			: 1900018011
+              Nama Siswa		: Hamizan Hibatullah
+              Jenis Kelamin		: laki-laki
+              Tempat Tanggal Lahir	: 2020-07-31
+              Nomor HP			: 082291992912
+              Email			: hami@gmail.com
+              Alamat			: DADAG
+              Agama			: budha
+              Nama Orangtua		: Ibu
+              No. HP Ortu		: 082295720592
+              Asal Sekolah		: SMP Negeri 1 Padaherang
+=========================================================================================
+Data PPDB
+              NISN			: 1900018011
+              Nama Siswa		: Hamizan Hibatullah
+              Jenis Kelamin		: laki-laki
+              Tempat Tanggal Lahir	: 2020-07-21
+              Nomor HP			: 082291992912
+              Email			: murinto@gmail.com
+              Alamat			: SAS
+              Agama			: budha
+              Nama Orangtua		: Ayah
+              No. HP Ortu		: 082295720592
+              Asal Sekolah		: SMP Negeri 1 Padaherang
+=========================================================================================
+Data PPDB
+              NISN			: 1900018011
+              Nama Siswa		: Peserta Tiga
+              Jenis Kelamin		: laki-laki
+              Tempat Tanggal Lahir	: 2020-06-16
+              Nomor HP			: 082291992912
+              Email			: hhamizan20@gmail.com
+              Alamat			: DATA
+              Agama			: islam
+              Nama Orangtua		: Ibu
+              No. HP Ortu		: 082295720592
+              Asal Sekolah		: SMP Negeri 1 Padaherang
+=========================================================================================
+Data PPDB
+              NISN			: 9992912
+              Nama Siswa		: Peserta Tiga
+              Jenis Kelamin		: wanita
+              Tempat Tanggal Lahir	: 2020-10-13
+              Nomor HP			: 082291992912
+              Email			: murinto@gmail.com
+              Alamat			: Dara
+              Agama			: budha
+              Nama Orangtua		: Ayah
+              No. HP Ortu		: 082295720592
+              Asal Sekolah		: SMP Negeri 1 Padaherang
+=========================================================================================
+Data PPDB
+              NISN			: 1900018011
+              Nama Siswa		: Peserta Dua
+              Jenis Kelamin		: wanita
+              Tempat Tanggal Lahir	: 2020-07-23
+              Nomor HP			: 082291992912
+              Email			: murinto@gmail.com
+              Alamat			: sdf
+              Agama			: kristen
+              Nama Orangtua		: Ayah
+              No. HP Ortu		: 082295720592
+              Asal Sekolah		: SMP Negeri 1 Padaherang
+=========================================================================================
+Data PPDB
+              NISN			: 1900018015
+              Nama Siswa		: Hakim Syihabuddin
+              Jenis Kelamin		: laki-laki
+              Tempat Tanggal Lahir	: 2020-01-01
+              Nomor HP			: 082291992912
+              Email			: hamizanhibatullah407@gmail.com
+              Alamat			: Putih
+              Agama			: hindu
+              Nama Orangtua		: Ibu
+              No. HP Ortu		: 082295720592
+              Asal Sekolah		: SMP Negeri 1 Padaherang
+=========================================================================================

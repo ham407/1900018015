@@ -1,0 +1,25 @@
+.form_login {
+   width: 100%;
+  height: auto;
+  padding: 8px 15px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  font-size: auto;
+
+}
+.form_login:focus {
+      border: 3px solid #24bcc6;
+      background-color: #86eaf4;
+      }
+
+.radio{
+  width:auto;
+  height:auto;
+  position:relative;
+  top:auto;
+  font-size: auto;}
+}
